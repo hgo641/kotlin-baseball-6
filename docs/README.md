@@ -4,7 +4,7 @@
 * [x] 스트라이크 개수 카운트
 
 ## NumbersGenerator
-* [ ] Number 생성
+* [x] Number 생성
 
 ## Game
 * [ ] Numbers 생성
