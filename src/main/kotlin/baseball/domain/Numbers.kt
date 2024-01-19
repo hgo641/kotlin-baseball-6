@@ -22,4 +22,11 @@ class Numbers(private val numbers: List<Int>) {
         val overlapCount = numbers.intersect(other.numbers).count();
         return overlapCount - countStrike(other)
     }
+
+    companion object {
+        fun from(inputs: String): Numbers {
+            val numbers = inputs.map { it.toString().toInt() }
+            return Numbers(numbers)
+        }
+    }
 }
