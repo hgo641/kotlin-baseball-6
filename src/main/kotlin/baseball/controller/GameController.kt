@@ -6,7 +6,7 @@ import baseball.view.View
 class GameController(val view: View, val numbersGenerator: NumbersGenerator = RandomNumbersGenerator()) {
 
     fun startGame() {
-        view.printStartGameMessage();
+        view.printStartGameMessage()
         do {
             playEachGame()
         } while (isRetryGame())
@@ -24,6 +24,6 @@ class GameController(val view: View, val numbersGenerator: NumbersGenerator = Ra
 
     private fun isRetryGame(): Boolean {
         val retryCommand = RetryCommand.from(view.inputRetryCommand())
-        return retryCommand.equals(RetryCommand.RETRY);
+        return retryCommand.equals(RetryCommand.RETRY)
     }
 }

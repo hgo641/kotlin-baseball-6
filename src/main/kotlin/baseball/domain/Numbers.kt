@@ -13,7 +13,7 @@ class Numbers(private val numbers: List<Int>) {
     }
 
     fun countBall(other: Numbers): Int {
-        val overlapCount = numbers.intersect(other.numbers.toSet()).count();
+        val overlapCount = numbers.intersect(other.numbers.toSet()).count()
         return overlapCount - countStrike(other)
     }
 

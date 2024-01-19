@@ -7,7 +7,7 @@ class RandomNumbersGeneratorTest {
 
     @Test
     fun 랜덤으로_숫자를_생성한다() {
-        var numberGenerator = RandomNumbersGenerator()
+        val numberGenerator = RandomNumbersGenerator()
         assertThat(numberGenerator.generate()).isInstanceOf(Numbers::class.java)
     }
 }

@@ -20,17 +20,17 @@ class NumbersTest {
 
     @Test
     fun 스트라이크를_카운트한다() {
-        var numbers1 = Numbers(listOf(1,2,3))
-        var numbers2 = Numbers(listOf(1,3,2))
+        val numbers1 = Numbers(listOf(1,2,3))
+        val numbers2 = Numbers(listOf(1,3,2))
 
-        assertThat(numbers1.countStrike(numbers2)).isEqualTo(1);
+        assertThat(numbers1.countStrike(numbers2)).isEqualTo(1)
     }
 
     @Test
     fun 볼을_카운트한다() {
-        var numbers1 = Numbers(listOf(1,2,3))
-        var numbers2 = Numbers(listOf(1,3,2))
+        val numbers1 = Numbers(listOf(1,2,3))
+        val numbers2 = Numbers(listOf(1,3,2))
 
-        assertThat(numbers1.countBall(numbers2)).isEqualTo(2);
+        assertThat(numbers1.countBall(numbers2)).isEqualTo(2)
     }
 }

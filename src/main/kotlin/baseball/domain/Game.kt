@@ -1,6 +1,6 @@
 package baseball.domain
 
-class Game(private val numbersGenerator: NumbersGenerator = RandomNumbersGenerator()) {
+class Game(numbersGenerator: NumbersGenerator = RandomNumbersGenerator()) {
 
     private val answerNumbers = numbersGenerator.generate()
 

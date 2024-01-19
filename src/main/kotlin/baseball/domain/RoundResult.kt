@@ -7,7 +7,7 @@ class RoundResult(val ballCount: Int, val strikeCount: Int) {
     }
 
     fun isWin(): Boolean {
-        return strikeCount == 3;
+        return strikeCount == 3
     }
 
     fun isNothing(): Boolean {

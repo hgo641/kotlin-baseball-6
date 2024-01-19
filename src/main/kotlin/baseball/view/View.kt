@@ -10,7 +10,7 @@ class View {
 
     fun inputUserNumbers(): String {
         print("숫자를 입력해주세요 : ")
-        return readln();
+        return readln()
     }
 
     fun printRoundResult(roundResult: RoundResult) {
