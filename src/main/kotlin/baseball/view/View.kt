@@ -18,13 +18,13 @@ class View {
             println("낫싱")
         }
         if(roundResult.isOnlyBall()) {
-            println("%d볼".format(roundResult.ballCount))
+            println("${roundResult.ballCount}볼")
         }
         if(roundResult.isOnlyStrike()) {
-            println("%d스트라이크".format(roundResult.strikeCount))
+            println("${roundResult.strikeCount}스트라이크")
         }
         if(roundResult.isBallAndStrike()) {
-            println("%d볼 %d스트라이크".format(roundResult.ballCount, roundResult.strikeCount))
+            println("${roundResult.ballCount}볼 ${roundResult.strikeCount}스트라이크")
         }
     }
 
