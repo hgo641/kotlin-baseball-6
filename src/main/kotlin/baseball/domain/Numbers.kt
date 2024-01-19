@@ -9,17 +9,11 @@ class Numbers(private val numbers: List<Int>) {
     }
 
     fun countStrike(other: Numbers): Int {
-        var strikeCount = 0
-        for (index : Int in 0..2) {
-            if (numbers.get(index).equals(other.numbers.get(index))) {
-                strikeCount++
-            }
-        }
-        return strikeCount
+        return numbers.zip(other.numbers).count { (a, b) -> a == b }
     }
 
     fun countBall(other: Numbers): Int {
-        val overlapCount = numbers.intersect(other.numbers).count();
+        val overlapCount = numbers.intersect(other.numbers.toSet()).count();
         return overlapCount - countStrike(other)
     }
 
