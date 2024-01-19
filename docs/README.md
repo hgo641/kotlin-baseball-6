@@ -7,8 +7,8 @@
 * [x] Number 생성
 
 ## Game
-* [ ] Numbers 생성
-* [ ] Numbers와 유저의 Numbers 비교 
+* [x] Numbers 생성
+* [x] Numbers와 유저의 Numbers 비교 
 
 ## GameController
 * [ ] 게임 생성
