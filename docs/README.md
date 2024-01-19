@@ -11,10 +11,10 @@
 * [x] Numbers와 유저의 Numbers 비교 
 
 ## GameController
-* [ ] 게임 생성
-* [ ] 게임 재시도 판단
+* [x] 게임 생성
+* [x] 게임 재시도 판단
 
 ## View
-* [ ] 유저 Numbers 입력
-* [ ] Numbers 비교 결과 출력
+* [x] 유저 Numbers 입력
+* [x] Numbers 비교 결과 출력
 
